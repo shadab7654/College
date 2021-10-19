@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    font-family: 'Scheherazade New', serif;
+    
+}
+.counter {
+    background-color:#f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+.counter
+{
+    background-color: #eaecf0;
+    text-align: center;
+}
+.employees,.customer,.design,.order
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    font-size: 18px;
+    background-color: #00b3e7;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+.para{
+    text-align: center;
+}
+.para h2{
+    font-weight: bold;
+    color: cadetblue;
+    font-size: 2rem;
+}
+.para p{
+    color: cadetblue;
+    font-size: 1rem;
+}
+.branch h2{
+    color: cadetblue;
+}
+.teach h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkcyan;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.admission{
+    background-color: rgb(18, 151, 228);
+    width: 1000px;
+    height: 150px;
+    margin-left: 15%;
+    border-radius: 50px;
+}
+.admission h2{
+    overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
+.Btn{
+    margin-left: 45%;
+    border-radius: 50px;
+    color: cadetblue;
+    width: 100px;
+    background-color: darkblue;
+}
